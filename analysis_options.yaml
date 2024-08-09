@@ -1,0 +1,14 @@
+include: package:lints/recommended.yaml
+
+analyzer:
+  exclude: [build/**]
+  language:
+    strict-raw-types: true
+  strong-mode:
+    implicit-casts: false
+
+linter:
+  rules:
+    - prefer_const_declarations
+    - prefer_const_constructors
+    - prefer_const_constructors_in_immutables

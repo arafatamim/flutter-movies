@@ -1,0 +1,44 @@
+name: flutter_movies
+description: A sample Flutter app to watch movies and TV shows
+publish_to: none
+
+version: 0.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.5"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.5.0+1
+  dio_cache_interceptor: ^3.0.1
+  dio_cache_interceptor_file_store: ^1.1.0
+  cached_network_image: ^3.3.1
+  transparent_image: ^2.0.0
+  google_fonts: ^6.2.1
+  android_intent_plus: ^5.0.2
+  duration: ^3.0.6
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.10+1
+  google_nav_bar: ^5.0.5
+  flutter_feather_icons: ^2.0.0+1
+  async: ^2.8.2
+  shared_preferences: ^2.0.7
+  deferred_type: ^3.0.0
+  deferred_type_flutter: ^1.0.0
+  ticker_text: ^2.0.0
+  path_provider: ^2.0.2
+  rxdart: ^0.28.0
+  flutter_bloc: ^8.0.1
+  couchkeys: ^1.0.0
+
+dev_dependencies:
+  lints: ^4.0.0
+  # flutter_test:
+  #   sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

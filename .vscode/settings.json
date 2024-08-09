@@ -1,0 +1,5 @@
+{
+  "dart.env": {
+    "CHROME_EXECUTABLE": "chromium"
+  }
+}
