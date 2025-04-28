@@ -1,0 +1,1 @@
+/home/alireza/w/movy/flutter-movies/build/app/intermediates/cxx/Debug/2l5d731d/obj/arm64-v8a

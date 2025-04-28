@@ -1,0 +1,2 @@
+/home/alireza/w/movy/flutter-movies/android/app/.cxx/Debug/2l5d731d/x86/CMakeFiles/edit_cache.dir
+/home/alireza/w/movy/flutter-movies/android/app/.cxx/Debug/2l5d731d/x86/CMakeFiles/rebuild_cache.dir

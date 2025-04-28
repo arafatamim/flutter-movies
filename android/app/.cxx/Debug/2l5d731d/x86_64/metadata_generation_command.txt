@@ -1,0 +1,20 @@
+                        -H/home/alireza/Android/flutter/flutter/packages/flutter_tools/gradle/src/main/groovy
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86_64
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DANDROID_NDK=/home/alireza/Android/Sdk/ndk/26.3.11579264
+-DCMAKE_ANDROID_NDK=/home/alireza/Android/Sdk/ndk/26.3.11579264
+-DCMAKE_TOOLCHAIN_FILE=/home/alireza/Android/Sdk/ndk/26.3.11579264/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/alireza/Android/Sdk/cmake/3.22.1/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/alireza/w/movy/flutter-movies/build/app/intermediates/cxx/Debug/2l5d731d/obj/x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/alireza/w/movy/flutter-movies/build/app/intermediates/cxx/Debug/2l5d731d/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-B/home/alireza/w/movy/flutter-movies/android/app/.cxx/Debug/2l5d731d/x86_64
+-GNinja
+-Wno-dev
+--no-warn-unused-cli
+                        Build command args: []
+                        Version: 2
