@@ -10,7 +10,7 @@ import 'package:flutter_movies/services/user.dart';
 import 'package:flutter_movies/widgets/dialogs/responsive_dialog.dart';
 import 'package:flutter_movies/widgets/error.dart';
 import 'package:flutter_movies/widgets/scaffold_with_button.dart';
-import 'package:flutter_movies/widgets/settings/trakt_selector.dart';
+import 'package:flutter_movies/widgets/settings/auth_selector.dart';
 import 'package:flutter_movies/widgets/settings/user_selector.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -85,23 +85,7 @@ class SettingsPageState extends State<SettingsPage> {
                     orElse: () => const SizedBox.shrink(),
                   ),
                 ),
-                if (currentUser != null)
-                  FutureBuilder2<bool>(
-                    future: RepositoryProvider.of<UserService>(context)
-                        .isTraktActivated(currentUser.id),
-                    builder: (context, state) {
-                      return state.maybeWhen(
-                        success: (activated) {
-                          return TraktSelector(
-                            activated: activated,
-                            userId: currentUser.id,
-                            onChange: () => setState(() {}),
-                          );
-                        },
-                        orElse: () => const SizedBox.shrink(),
-                      );
-                    },
-                  ),
+                const AuthSelector(),
                 StreamBuilder<String?>(
                   stream: serverEndpoint.stream,
                   builder: (context, snapshot) {
